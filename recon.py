@@ -1,7 +1,7 @@
 import sys
 import socket
 
-SUBS = ["www", "mail", "admin", "dev", "vpn", "portal"]
+SUBS = ["www", "mail", "admin", "dev", "vpn", "portal", "api", "staging"]
 
 def main(domain):
     for s in SUBS:
